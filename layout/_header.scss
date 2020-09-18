@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.navbar{
+    background: black;
+    color: $brand-color;
+    border-bottom: 1px solid $brand-color;
+    font-size: 2em;
+    
+    @include respond-to('xs') {
+        font-size: 0.8em;
+        padding: 10px 15px;
+    }
+    @include respond-to('sm') {
+        font-size: 0.8em;
+        padding: 10px 15px;
+    }
+    @include respond-to('lg') {
+        font-size: 1.5em;
+        padding: 10px 100px;
+    }
+    a{
+    color:$brand-color;
+    margin: 20px;
+    font-size: 1.5em;
+    margin: 0 15px;
+    padding: 5px;
+    float: right;
+    }
+    & :hover{
+    color: $light-blue;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        height: 80vh;
+    }
+    button{
+        border-color: $brand-color !important;
+        outline-color: $brand-color !important;
+        color:  $brand-color !important;
+        border: 1px solid $brand-color !important;
+    }
+}
+
+

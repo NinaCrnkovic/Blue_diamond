@@ -1,0 +1,28 @@
+
+
+.services{
+    background:$black;
+    color: $brand-color;
+    text-align: center;
+    .card-deck{
+        padding: 50px 15px 0 15px;
+        margin: 0 50px;
+        .card{
+            border: 2px solid rgb(0, 195, 255);
+            border-radius: 10%;
+            overflow: hidden;
+            background-color: rgb(73, 71, 71);
+            margin: 0 50px;
+            .card-body{
+                background-color: $black;
+                padding: 3px;
+            }
+            
+        
+            
+        }
+    }
+} 
+
+
+

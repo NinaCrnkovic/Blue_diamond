@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.jumbotron{
+    background-image: url(/images/blue.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    margin: 0;
+    .jbcont{
+        background: rgba(0,0,0,0.7);
+        margin-top: 100px;
+        border-radius: 10px;
+        border: 1px solid #00c3ff;
+        box-shadow: 10px 10px 20px #333;
+        animation: dropping 2s ease 0.5s backwards;
+        width: 80vw;
+        h1{
+            font-size: 2em;
+            padding: 20px 30px;
+        }
+        
+        @include animation(dropping 1.5s linear 0s);
+
+    }
+    
+}
+
+@include keyframes (dropping){
+    from {
+       transform: translate(0, -700px);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
