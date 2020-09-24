@@ -2,15 +2,15 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 .jumbotron{
-    background-image: url(images/blue.jpg);
+    background-image: url(images/brushes.jpg);
     background-size: cover;
-    height: 100vh;
-    color: white;
+    height: 83vh;
+    color: $brand-color;
     font-family: 'Courgette', cursive;
     text-align: center;
     margin: 0;
     .jbcont{
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.9);
         margin-top: 100px;
         border-radius: 10px;
         border: 1px solid #00c3ff;
