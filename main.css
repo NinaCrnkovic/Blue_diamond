@@ -486,8 +486,13 @@ body {
   background: black;
   color: #00c3ff;
   text-align: center;
-  padding: 50px 15px 50px 15px;
+  padding: 10px 15px 10px 15px;
   margin: 30px;
+  max-width: 70vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
 }
 
 .services .flip-card {
